@@ -14,5 +14,25 @@ public class Q07_StringManipulation {
 		 	 \\W  ==> A->Z		a->z			0->9    _ disindaki hersey
 		 3) \\s   ==> space
 		 	 \\S   ==> space disindaki hersey  */
+     public static void main(String[] args) {
+         String str1= "$13.99"; str1=str1.replaceAll("\\D", "");//1399
+         System.out.println("str1 = " + str1);
+
+         String str2= "$10.55"; str2=str2.replaceAll("\\D", "");//1055
+         System.out.println("str2 = " + str2);
+
+         System.out.println(str1+str2);//13991055(concatination)
+
+         double sayi1=Double.parseDouble(str1);
+         System.out.println("sayi1 = " + sayi1);//1399.0, parseDouble String deki ifadeleri double yapar
+         double sayi2=Double.parseDouble(str2);
+         System.out.println("sayi2 = " + sayi2);//1055.0
+         double toplam=(sayi1+sayi2)/100;
+         System.out.println("$" + toplam);//$24.54
+
+
+
+
+     }
 
 }
