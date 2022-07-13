@@ -27,7 +27,7 @@ public class Q08_MethodCreation {
           } else if (islem == '-') {
                System.out.println("Girilen sayilarin farki : " + (sayi1 - sayi2));
           } else if (islem == '*') {
-               System.out.println("Girilen sayilarin carpimii : " + (sayi1 * sayi2));
+               System.out.println("Girilen sayilarin carpimi : " + (sayi1 * sayi2));
           } else if (islem == '/') {
                System.out.println("Girilen sayilarin bolumu : " + (sayi1 / sayi2));
 

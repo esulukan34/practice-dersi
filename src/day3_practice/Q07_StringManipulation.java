@@ -17,6 +17,14 @@ public class Q07_StringManipulation {
                         +kelime.substring(1,2)
                         +kelime.substring(0,1));
 
+        System.out.println(" ");
+        if(kelime.length() <= 4){
+            char bir = kelime.charAt(0);
+            char iki = kelime.charAt(1);
+            char uc = kelime.charAt(2);
+            char dort = kelime.charAt(3);
+            System.out.println("Tersten: " + dort + uc + iki + bir );
+        }else System.out.println("Girdiginiz kelime uzunlugu 4 karakter degil");
 
 
     }
