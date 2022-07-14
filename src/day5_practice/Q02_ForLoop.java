@@ -14,14 +14,15 @@ public class Q02_ForLoop {
 	     */
      public static void main(String[] args) {
          Scanner scan= new Scanner(System.in);
-         System.out.println("1'den büyük bir tam sayı girin");
+         System.out.print("1'den büyük bir tam sayı girin :");
          int sayi=scan.nextInt();
          int toplam=0;
+
          for (int i = 1; i <sayi ; i++) {
-             toplam+= i*i;
+             toplam += (i*i);
 
-
-         }System.out.println("kareler toplami : " + toplam);
+         }
+         System.out.println("kareler toplami : " + toplam);
 
      }
 }
