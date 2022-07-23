@@ -25,7 +25,7 @@ public class Q07_Arrays {
             }
         }
         /*
-        j=i+1 ve j=i oldugundaoldugunda
+        j=i+1 ve j=i oldugunda
         5 ve 4 toplam : 9
         7 ve 2 toplam : 9
         -6 ve 15 toplam : 9
